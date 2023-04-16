@@ -520,7 +520,7 @@
     min-height: 420px;
   }
   
-  .card__button {
+  .card__anchor {
     border: 1px solid #FFFFFF;
     font-family: "Lato";
     color: #FFFFFF;
@@ -530,9 +530,10 @@
     display: flex;
     align-items: center;
     background: none;
+    text-decoration: none;
   }
   
-  .card__button::before {
+  .card__anchor::before {
     content: url(img/cart-btn.svg);
     margin-right: 11px;
   }
